@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBE-Ac-vcx">
+                                <rect key="frame" x="140" y="269" width="41" height="30"/>
+                                <state key="normal" title="Stopp">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="StopButton_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="205"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="204">
+                                <rect key="frame" x="137" y="231" width="46" height="30"/>
+                                <state key="normal" title="Auf"/>
+                                <connections>
+                                    <action selector="UpButton_TouchUpInside:" destination="BYZ-38-t0r" id="633" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="206">
+                                <rect key="frame" x="137" y="307" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="r4t-76-b3i"/>
+                                </constraints>
+                                <state key="normal" title="Ab"/>
+                                <connections>
+                                    <action selector="DownButton_TouchUpInside:" destination="BYZ-38-t0r" id="645" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="206" firstAttribute="trailing" secondItem="204" secondAttribute="trailing" id="Fhe-ky-oZF"/>
+                            <constraint firstItem="oBE-Ac-vcx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HiD-uS-i16"/>
+                            <constraint firstItem="206" firstAttribute="leading" secondItem="204" secondAttribute="leading" id="M6s-6v-RZj"/>
+                            <constraint firstItem="oBE-Ac-vcx" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="8" symbolic="YES" id="XFd-g4-e7Y"/>
+                            <constraint firstItem="oBE-Ac-vcx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YgX-7e-bMc"/>
+                            <constraint firstItem="206" firstAttribute="top" secondItem="oBE-Ac-vcx" secondAttribute="bottom" constant="8" symbolic="YES" id="bjo-un-39W"/>
+                            <constraint firstItem="206" firstAttribute="centerX" secondItem="oBE-Ac-vcx" secondAttribute="centerX" id="u2h-8P-g6o"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="DownButton" destination="206" id="name-outlet-206"/>
+                        <outlet property="StopButton" destination="oBE-Ac-vcx" id="name-outlet-oBE-Ac-vcx"/>
+                        <outlet property="UpButton" destination="204" id="name-outlet-204"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

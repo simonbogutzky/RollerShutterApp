@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.5.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Droid" t="IncludeRecursive">
+        <e p="Assets" t="Include">
+          <e p="AboutAssets.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainActivity.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AndroidManifest.xml" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AboutResources.txt" t="Include" />
+          <e p="layout" t="Include">
+            <e p="Main.axml" t="Include" />
+          </e>
+          <e p="mipmap-hdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="mipmap-mdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="mipmap-xhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="mipmap-xxhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="mipmap-xxxhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="Resource.designer.cs" t="Include" />
+          <e p="values" t="Include">
+            <e p="Strings.xml" t="Include" />
+          </e>
+        </e>
+        <e p="RollerShutter.Droid.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="iOS" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="Contents.json" t="Include" />
+          </e>
+          <e p="Contents.json" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="LaunchScreen.storyboard" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="Main.storyboard" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Resources" t="Include" />
+        <e p="RollerShutter.iOS.csproj" t="IncludeRecursive" />
+        <e p="ViewController.cs" t="Include" />
+        <e p="ViewController.designer.cs" t="Include" />
+      </e>
+      <e p="NET" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="RollerShutter.NET.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RollerShutter.NET.csproj" t="IncludeRecursive" />
+        <e p="RollerShutterManager.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RollerShutter.sln" t="IncludeFlat" />
+      <e p="XUnit" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="RollerShutter.XUnit.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RollerShutter.XUnit.csproj" t="IncludeRecursive" />
+        <e p="RollerShutterManagerTests.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_RollerShutter.-1806707154.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-27/data/res" t="IncludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stop">Stop</string>
+    <string name="up">Auf</string>
+    <string name="down">Ab</string>
+    <string name="app_name">RollerShutter.Droid</string>
+</resources>
