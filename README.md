@@ -5,7 +5,7 @@ License: [MIT](https://opensource.org/licenses/MIT)
 
 Version: 1.0.0
 
-Document version: 1.0.2 
+Document version: 1.0.3 
 
 Date: 12/04/2020
 
@@ -22,7 +22,7 @@ For now you have to change the IP address of the RollerShutter web server in the
 private readonly RollerShutterManager _manager = new RollerShutterManager("192.168.2.56");
 ```
 
-![Interface](images/interface.jpg)
+![Interface](images/interface.jpg){:width="200px"}
 
 *German Interface on the iPhone X*
 
